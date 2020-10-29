@@ -175,3 +175,11 @@
   });
 
 })(jQuery);
+
+
+//typed JS Snippet
+const typed = new Typed('#typed', {
+  stringsElement: '#typed-strings',
+  backSpeed: 60,
+  typeSpeed: 60
+});
