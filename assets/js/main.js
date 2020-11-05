@@ -183,3 +183,9 @@ const typed = new Typed('#typed', {
   backSpeed: 60,
   typeSpeed: 60
 });
+
+
+if (window.matchMedia('(prefers-color-scheme)').media === 'not all') {
+  console.log('Browser doesn\'t support dark mode');
+}
+
